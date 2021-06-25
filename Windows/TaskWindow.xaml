@@ -1,0 +1,70 @@
+﻿<Window x:Class="EisenhowerTaskManager.Windows.TaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EisenhowerTaskManager.Windows"
+        mc:Ignorable="d"
+        Title="Task" Height="356.144" Width="600"
+        Background="DarkGray">
+    <Window.Resources>
+        <Style TargetType="Control">
+            <Setter Property="Background" Value="WhiteSmoke" />
+            <Setter Property="MinHeight" Value="22" />
+            <Setter Property="Margin" Value="22" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="WhiteSmoke" />
+            <Setter Property="MinHeight" Value="22" />
+        </Style>
+        <Style TargetType="DatePicker">
+            <Setter Property="Background" Value="WhiteSmoke" />
+            <Setter Property="MinHeight" Value="22" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Width" Value="160" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="WhiteSmoke" />
+            <Setter Property="MinHeight" Value="22" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Width" Value="160" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <Label Content="Task Name" />
+            <TextBox x:Name="TaskNameTextBox" />
+            <Label Content="Eisenhower Type" />
+            <ComboBox x:Name="EmComboBox">
+                <ComboBoxItem Content="A" />
+                <ComboBoxItem Content="B" />
+                <ComboBoxItem Content="C" />
+                <ComboBoxItem Content="D" />
+            </ComboBox>
+            <Label Content="Due Date" />
+            <DatePicker x:Name="DueDatePicker" />
+            <Label Content="Status" />
+            <ComboBox x:Name="StatusComboBox"/>
+            <Label Content="Task Description" />
+            <TextBox x:Name="DescriptionTextBox"
+                     TextWrapping="Wrap"
+                     MinHeight="60"
+                     VerticalAlignment="Stretch" />
+            <StackPanel Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                <Button x:Name="OkButton"
+                        Content="OK"
+                        Margin="4"
+                        Click="ButtonOk_OnClick" />
+                <Button x:Name="FinishButton"
+                        Content="Ok, and Close Task"
+                        Margin="4"
+                        Click="FinishButton_OnClick" />
+                <Button x:Name="CancelButton"
+                        Content="Cancel"
+                        Margin="4"
+                        Click="CancelButton_OnClick" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
