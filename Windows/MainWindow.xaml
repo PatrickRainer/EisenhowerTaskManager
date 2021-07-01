@@ -28,7 +28,8 @@
             <userControls:TaskListControl
                 x:Name="ABoxTaskList"
                 BoxTitle="A - Important and Urgent"
-                Background="IndianRed" />
+                Background="IndianRed">
+            </userControls:TaskListControl>
         </Grid>
 
         <Grid Grid.Column="1" Grid.Row="0">

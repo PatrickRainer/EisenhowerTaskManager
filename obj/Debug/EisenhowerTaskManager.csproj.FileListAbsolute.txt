@@ -34,3 +34,4 @@ D:\PR_DevStudio\Operativ\BusinessApps\EisenhowerTaskManager\obj\Debug\Eisenhower
 D:\PR_DevStudio\Operativ\BusinessApps\EisenhowerTaskManager\obj\Debug\EisenhowerTaskManager.csproj.CoreCompileInputs.cache
 D:\PR_DevStudio\Operativ\BusinessApps\EisenhowerTaskManager\obj\Debug\EisenhowerTaskManager.exe
 D:\PR_DevStudio\Operativ\BusinessApps\EisenhowerTaskManager\obj\Debug\EisenhowerTaskManager.pdb
+D:\PR_DevStudio\Operativ\BusinessApps\EisenhowerTaskManager\obj\Debug\EisenhowerTaskManager_Content.g.cs

@@ -92,7 +92,7 @@ namespace EisenhowerTaskManager.Windows
                 Id = 5,
                 TaskName = "Task 5",
                 Description = "Description of Task 5",
-                EisenhowerType = EisenhowerType.B,
+                EisenhowerType = EisenhowerType.A,
                 DueDate = DateTime.Now.AddDays(rnd.Next(1, 100))
             };
             var task6 = new EmTask
@@ -100,7 +100,7 @@ namespace EisenhowerTaskManager.Windows
                 Id = 6,
                 TaskName = "Task 6",
                 Description = "Description of Task 6",
-                EisenhowerType = EisenhowerType.C,
+                EisenhowerType = EisenhowerType.A,
                 DueDate = DateTime.Now.AddDays(rnd.Next(1, 100))
             };
             var task7 = new EmTask
@@ -108,7 +108,7 @@ namespace EisenhowerTaskManager.Windows
                 Id = 7,
                 TaskName = "Task 7",
                 Description = "Description of Task 7",
-                EisenhowerType = EisenhowerType.D,
+                EisenhowerType = EisenhowerType.A,
                 DueDate = DateTime.Now.AddDays(rnd.Next(1, 100))
             };
 
